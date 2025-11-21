@@ -1,0 +1,3 @@
+Este ejercicio constituye un primer acercamiento al uso de la librería Bootstrap, con el propósito de familiarizarse con sus componentes fundamentales y sus utilidades de diseño. 
+El objetivo principal es desarrollar un sitio web responsivo, capaz de adaptarse adecuadamente a distintos dispositivos, como teléfonos móviles, tabletas y pantallas de escritorio.
+Asimismo, se incorpora el componente navbar para practicar la implementación de estructuras de navegación modernas y coherentes con los principios de diseño adaptable que ofrece Bootstrap
