@@ -14,9 +14,11 @@ function scrollBtn (){
     });
   }  
 } 
+
+
 //este codigo es necesario para que el DOM esté cargado antes de buscar el botón
 document.addEventListener("DOMContentLoaded", scrollBtn);
- //element.scrollIntoView({ behavior: "smooth"});
+
 
    
 
