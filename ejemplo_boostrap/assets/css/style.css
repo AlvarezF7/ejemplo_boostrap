@@ -3,28 +3,58 @@ body{
   font-family:'sans serif';
   text-align: center;  
 }
+
 .main{
  font-family:'sans serif';
  color:rgb(236, 252, 183);
  font-weight: bold;  
 }
 .text-justify{
+  color:rgb(255, 255, 255);
   text-align: justify;
 }
 .card-tittle {
-  font-weight: bold; 
-   
+  color:rgb(255, 255, 255);
+  font-weight: bold;  
 }
 #row{      /*para dar un pequeño marjen entre las tarjetas y el borde de la pagina*/        
  padding: 0 auto;
  margin: 0 auto; 
  }
+ .card:hover {
+  transform: translateY(-10px);
+  transition: 0.3s ease;
+}
+
+.col-10{ /* mantine todas las tarjetas del mismo porte*/
+  display:flex;
+  flex-wrap: wrap; 
+}
+ #btnTop{
+  display:flex;
+  justify-self: flex-end;
+  border-bottom:0.2rem;
+  border-radius:0.5rem;
+  background-color: rgba(255, 255, 255, 0.421);
+  color:rgb(227, 241, 241) ;
+ }
+#btnTop:hover{ /*speudo- clase*/
+   background-color:rgb(17, 178, 159);
+ }
+
 .card-img-top{ 
-  object-fit: cover;
-  display: block;
+  
+  height: 15rem;
+  width: 15rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0.6rem;
+}
+.card{
+  background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px; 
 }
 .footer{
   text-align: center;
